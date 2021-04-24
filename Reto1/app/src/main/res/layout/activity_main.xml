@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/cajaturqoise"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/turquoise"
+
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.15"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/cajaroja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+    <View
+        android:id="@+id/cajaverde"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/seagreen"
+
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.15"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf=""
+
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+    <View
+        android:id="@+id/cajaroja"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.85"
+
+        app:layout_constraintTop_toBottomOf="@id/cajaturqoise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintVertical_bias="0.90"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+    <View
+        android:id="@+id/amarilla"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.43"
+
+        app:layout_constraintTop_toBottomOf="@id/cajaturqoise"
+        app:layout_constraintBottom_toTopOf="@id/purpura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cajaroja"
+
+
+        app:layout_constraintVertical_bias="0.90"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+    <View
+        android:id="@+id/purpura"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/purple"
+
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.42"
+
+        app:layout_constraintTop_toBottomOf="@id/amarilla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cajaroja"
+
+
+        app:layout_constraintVertical_bias="0.90"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+    <View
+        android:id="@+id/naranja"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintHeight_percent="0.85"
+
+        app:layout_constraintTop_toBottomOf="@id/cajaturqoise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf=""
+
+
+        app:layout_constraintVertical_bias="0.90"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

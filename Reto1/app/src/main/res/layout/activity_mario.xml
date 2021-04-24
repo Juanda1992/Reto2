@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mario">
+
+    <View
+        android:id="@+id/linea1negra"
+        android:layout_width="0dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.5"
+        />
+
+    <View
+        android:id="@+id/linea2negra"
+        android:layout_width="08dp"
+        android:layout_height="020dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea1negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.306"
+        />
+
+    <View
+        android:id="@+id/linea3negra"
+        android:layout_width="08dp"
+        android:layout_height="020dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea1negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.694"
+        />
+
+    <View
+        android:id="@+id/linea1roja"
+        android:layout_width="0dp"
+        android:layout_height="020dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea1negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea3negra"
+        app:layout_constraintStart_toEndOf="@id/linea2negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+    <View
+        android:id="@+id/linea2roja"
+        android:layout_width="0dp"
+        android:layout_height="020dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea1roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea3negra"
+        app:layout_constraintStart_toEndOf="@id/linea2negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+    <View
+        android:id="@+id/linea4negra"
+        android:layout_width="0dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea3negra"
+        app:layout_constraintVertical_bias="0.228"
+        app:layout_constraintHorizontal_bias="0."
+        />
+
+    <View
+        android:id="@+id/linea5negra"
+        android:layout_width="020dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea2negra"
+        app:layout_constraintStart_toEndOf=""
+        app:layout_constraintVertical_bias="0.228"
+        app:layout_constraintHorizontal_bias="0."
+        />
+    <View
+        android:id="@+id/linea6negra"
+        android:layout_width="08dp"
+        android:layout_height="040dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea5negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea2roja"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.832"
+        />
+
+    <View
+        android:id="@+id/linea7negra"
+        android:layout_width="08dp"
+        android:layout_height="020dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea4negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea2roja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.33" />
+
+    <View
+        android:id="@+id/linea3roja"
+        android:layout_width="41dp"
+        android:layout_height="020dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea4negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea7negra"
+        app:layout_constraintStart_toEndOf="@id/linea2roja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea4roja"
+        android:layout_width="20dp"
+        android:layout_height="020dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea5negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea2roja"
+        app:layout_constraintStart_toEndOf="@id/linea6negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea1naranja"
+        android:layout_width="0dp"
+        android:layout_height="028dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea2roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea6negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea8negra"
+        android:layout_width="08dp"
+        android:layout_height="015dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/linea2roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.694" />
+
+    <View
+        android:id="@+id/linea9negra"
+        android:layout_width="0dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea2roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea8negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0." />
+
+    <View
+        android:id="@+id/linea1wood"
+        android:layout_width="23dp"
+        android:layout_height="028dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.05"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea2roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea8negra"
+        app:layout_constraintStart_toEndOf=""
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea2wood"
+        android:layout_width="0dp"
+        android:layout_height="028dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.05"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea2roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea1naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea2naranja"
+        android:layout_width="23dp"
+        android:layout_height="028dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.06"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea2roja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea1wood"
+        app:layout_constraintStart_toEndOf="@id/linea2wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea10negra"
+        android:layout_width="0dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.12"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea8negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea1wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0." />
+
+    <View
+        android:id="@+id/linea11negra"
+        android:layout_width="022dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea6negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.227" />
+
+    <View
+        android:id="@+id/linea12negra"
+        android:layout_width="08dp"
+        android:layout_height="060dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0"
+        app:layout_constraintHeight_percent="0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea11negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.317"
+        app:layout_constraintHorizontal_bias="0.9999" />
+
+    <View
+        android:id="@+id/linea3naranja"
+        android:layout_width="023dp"
+        android:layout_height="052dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea12negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea3wood"
+        android:layout_width="023dp"
+        android:layout_height="034dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea1naranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea3naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea4naranja"
+        android:layout_width="023dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea3wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea3naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea5naranja"
+        android:layout_width="023dp"
+        android:layout_height="034dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea1naranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea3wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea4wood"
+        android:layout_width="023dp"
+        android:layout_height="016dp"
+        android:background="@color/burlywood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/linea5naranja"
+        app:layout_constraintTop_toBottomOf="@id/linea1naranja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea6naranja"
+        android:layout_width="023dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea4wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea5naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea5wood"
+        android:layout_width="055dp"
+        android:layout_height="016dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea1naranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea4wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+    <View
+        android:id="@+id/linea7naranja"
+        android:layout_width="023dp"
+        android:layout_height="016dp"
+        android:background="@color/darkorange"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea5wood"
+        app:layout_constraintTop_toBottomOf="@id/linea2naranja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea6wood"
+        android:layout_width="023dp"
+        android:layout_height="016dp"
+        android:background="@color/burlywood"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea7naranja"
+        app:layout_constraintTop_toBottomOf="@id/linea1wood"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea7wood"
+        android:layout_width="079dp"
+        android:layout_height="018dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea5wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea6naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea8naranja"
+        android:layout_width="023dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea6wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea7wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea8wood"
+        android:layout_width="0102dp"
+        android:layout_height="018dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea7wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea4naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea9wood"
+        android:layout_width="041dp"
+        android:layout_height="021dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea10negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea6wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea13negra"
+        android:layout_width="08dp"
+        android:layout_height="020dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea10negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea9wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea14negra"
+        android:layout_width="020dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea13negra"
+        app:layout_constraintVertical_bias="0.31555"
+        app:layout_constraintHorizontal_bias="0" />
+
+
+    <View
+        android:id="@+id/linea15negra"
+        android:layout_width="08dp"
+        android:layout_height="035dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea14negra"
+        app:layout_constraintVertical_bias="0.3275"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea10wood"
+        android:layout_width="068dp"
+        android:layout_height="018dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea9wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea15negra"
+        app:layout_constraintStart_toEndOf="@id/linea8naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea16negra"
+        android:layout_width="020dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="@id/linea10wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea15negra"
+        app:layout_constraintStart_toEndOf="linea9"
+        app:layout_constraintVertical_bias="0.038"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea9naranja"
+        android:layout_width="090dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea8naranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea17negra"
+        app:layout_constraintStart_toEndOf="@id/linea9naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea17negra"
+        android:layout_width="09dp"
+        android:layout_height="018dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea10wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea16negra"
+        app:layout_constraintStart_toEndOf=""
+        app:layout_constraintVertical_bias="0.002"
+        app:layout_constraintHorizontal_bias="0.99" />
+
+    <View
+        android:id="@+id/linea11wood"
+        android:layout_width="0102dp"
+        android:layout_height="018dp"
+        android:background="@color/burlywood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linea8wood"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea18negra"
+        android:layout_width="053dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.01"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea3naranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea11wood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.99" />
+
+    <View
+        android:id="@+id/linea12wood"
+        android:layout_width="065dp"
+        android:layout_height="018dp"
+        android:background="@color/burlywood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0."
+        app:layout_constraintStart_toEndOf="@id/linea11wood"
+        app:layout_constraintTop_toBottomOf="@id/linea9naranja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea19negra"
+        android:layout_width="028dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.01"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea17negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea12wood"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea20negra"
+        android:layout_width="09dp"
+        android:layout_height="09.09dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/linea19negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf=""
+        app:layout_constraintStart_toEndOf="@id/linea12wood"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.99" />
+
+    <View
+        android:id="@+id/linea21negra"
+        android:layout_width="09dp"
+        android:layout_height="010dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/linea18negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea11wood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.99" />
+
+    <View
+        android:id="@+id/linea23negra"
+        android:layout_width="012dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="@id/linea18negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea21negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:layout_constraintHorizontal_bias="0.99999" />
+
+    <View
+        android:id="@+id/linea24negra"
+        android:layout_width="08dp"
+        android:layout_height="026dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="@id/linea18negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea23negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintHorizontal_bias="0.9999" />
+
+    <View
+        android:id="@+id/linea25negra"
+        android:layout_width="012dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="@id/linea18negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea24negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.99999" />
+
+    <View
+        android:id="@+id/linea26negra"
+        android:layout_width="08dp"
+        android:layout_height="026dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="@id/linea18negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea25negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.9999" />
+
+    <View
+        android:id="@+id/linea27negra"
+        android:layout_width="012dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toTopOf="@id/linea18negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea26negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.1025"
+        app:layout_constraintHorizontal_bias="0.99999" />
+
+    <View
+        android:id="@+id/linea28negra"
+        android:layout_width="08dp"
+        android:layout_height="080dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea27negra"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/linea18negra"
+        app:layout_constraintVertical_bias="0.123"
+        app:layout_constraintWidth_percent="0.4" />
+
+    <View
+        android:id="@+id/linea29negra"
+        android:layout_width="040dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea28negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.1688" />
+
+    <View
+        android:id="@+id/linea30negra"
+        android:layout_width="08dp"
+        android:layout_height="015dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toTopOf="@id/linea18negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea29negra"
+        app:layout_constraintVertical_bias="0.285"
+        app:layout_constraintHorizontal_bias="0." />
+
+    <View
+        android:id="@+id/linea31negra"
+        android:layout_width="012dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea30negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.00061654"
+        app:layout_constraintHorizontal_bias="0.232" />
+
+    <View
+        android:id="@+id/linea32negra"
+        android:layout_width="08dp"
+        android:layout_height="026dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea29negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea31negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:layout_constraintHorizontal_bias="0.9999" />
+
+    <View
+        android:id="@+id/linea33negra"
+        android:layout_width="012dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea29negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea32negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.99999" />
+
+    <View
+        android:id="@+id/linea34negra"
+        android:layout_width="08dp"
+        android:layout_height="026dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea29negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea33negra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.085"
+        app:layout_constraintHorizontal_bias="0.9999" />
+
+    <View
+        android:id="@+id/linea35negra"
+        android:layout_width="06dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea30negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea31negra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea36negra"
+        android:layout_width="085dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea34negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.197" />
+
+    <View
+        android:id="@+id/linea37negra"
+        android:layout_width="051dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea12wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea24negra"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.593" />
+
+
+
+    <View
+        android:id="@+id/linea38negra"
+        android:layout_width="08dp"
+        android:layout_height="012dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/linea37negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea24negra"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.505" />
+
+    <View
+        android:id="@+id/linea39negra"
+        android:layout_width="063dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea37negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea38negra"
+        app:layout_constraintVertical_bias="0.00999"
+        app:layout_constraintHorizontal_bias="0." />
+
+    <View
+        android:id="@+id/linea40negra"
+        android:layout_width="08dp"
+        android:layout_height="020dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea39negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea26negra"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.739" />
+
+    <View
+        android:id="@+id/linea41negra"
+        android:layout_width="014dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea16negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea39negra"
+        app:layout_constraintVertical_bias="0.13"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea42negra"
+        android:layout_width="08dp"
+        android:layout_height="076dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/linea41negra"
+        app:layout_constraintTop_toTopOf="@id/linea16negra"
+        app:layout_constraintVertical_bias="0.170"
+        app:layout_constraintWidth_percent="0.4" />
+
+    <View
+        android:id="@+id/linea43negra"
+        android:layout_width="040dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea42negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea30negra"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.772"
+        />
+
+    <View
+        android:id="@+id/linea44negra"
+        android:layout_width="08dp"
+        android:layout_height="015dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toBottomOf="@id/linea39negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea43negra"
+        app:layout_constraintStart_toEndOf="@id/linea30negra"
+        app:layout_constraintVertical_bias="0.218"
+        app:layout_constraintHorizontal_bias="0.9999"
+        />
+    <View
+        android:id="@+id/linea45negra"
+        android:layout_width="08dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea44negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea35negra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.66"
+        />
+
+    <View
+        android:id="@+id/linea46negra"
+        android:layout_width="012dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea30negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea45negra"
+        app:layout_constraintVertical_bias="0.00061654"
+        app:layout_constraintHorizontal_bias="0."
+        />
+
+    <View
+        android:id="@+id/linea47negra"
+        android:layout_width="08dp"
+        android:layout_height="026dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea43negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea46negra"
+        app:layout_constraintVertical_bias="0.024"
+        app:layout_constraintHorizontal_bias="0."
+        />
+
+    <View
+        android:id="@+id/linea48negra"
+        android:layout_width="012dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea43negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea47negra"
+        app:layout_constraintVertical_bias="0.08"
+        app:layout_constraintHorizontal_bias="0."
+        />
+    <View
+        android:id="@+id/linea49negra"
+        android:layout_width="08dp"
+        android:layout_height="026dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea43negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea48negra"
+        app:layout_constraintVertical_bias="0.085"
+        app:layout_constraintHorizontal_bias="0"
+        />
+
+    <View
+        android:id="@+id/linea50negra"
+        android:layout_width="085dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea49negra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/linea36negra"
+        app:layout_constraintVertical_bias="0."
+        app:layout_constraintHorizontal_bias="0.665"
+        />
+
+    <View
+        android:id="@+id/linea51negra"
+        android:layout_width="08dp"
+        android:layout_height="044dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea50negra"
+        app:layout_constraintStart_toEndOf="@id/linea36negra"
+        app:layout_constraintVertical_bias="0.333"
+        app:layout_constraintHorizontal_bias="0."
+        />
+
+    <View
+        android:id="@+id/linea52negra"
+        android:layout_width="08dp"
+        android:layout_height="044dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea50negra"
+        app:layout_constraintStart_toEndOf="@id/linea51negra"
+        app:layout_constraintVertical_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.99999"
+        />
+
+    <View
+        android:id="@+id/linea53negra"
+        android:layout_width="023dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/linea52negra"
+        app:layout_constraintStart_toEndOf="@id/linea51negra"
+        app:layout_constraintVertical_bias="0.305"
+        app:layout_constraintHorizontal_bias="0."
+        />
+    <View
+        android:id="@+id/linea54negra"
+        android:layout_width="023dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/linea52negra"
+        app:layout_constraintStart_toEndOf="@id/linea51negra"
+        app:layout_constraintVertical_bias="0.305"
+        app:layout_constraintHorizontal_bias="0.91"
+        />
+
+    <View
+        android:id="@+id/linea55negra"
+        android:layout_width="08dp"
+        android:layout_height="031dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toTopOf="@id/linea11wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea54negra"
+        app:layout_constraintStart_toEndOf="@id/linea53negra"
+        app:layout_constraintVertical_bias="0.298"
+        app:layout_constraintHorizontal_bias="0."
+        />
+    <View
+        android:id="@+id/linea56negra"
+        android:layout_width="08dp"
+        android:layout_height="031dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.4"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintTop_toTopOf="@id/linea11wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/linea54negra"
+        app:layout_constraintStart_toEndOf="@id/linea55negra"
+        app:layout_constraintVertical_bias="0.298"
+        app:layout_constraintHorizontal_bias="1"
+        />
+
+    <View
+        android:id="@+id/linea57negra"
+        android:layout_width="040dp"
+        android:layout_height="08dp"
+        android:background="@color/black"
+        app:layout_constraintWidth_percent="0.1"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/linea56negra"
+        app:layout_constraintStart_toEndOf="@id/linea55negra"
+        app:layout_constraintVertical_bias="0.253"
+        app:layout_constraintHorizontal_bias="0."
+        />
+    <View
+        android:id="@+id/linea10naranja"
+        android:layout_width="77dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea36negra"
+        app:layout_constraintEnd_toStartOf="@id/linea51negra"
+        app:layout_constraintStart_toEndOf="@id/linea34negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+    <View
+        android:id="@+id/linea11naranja"
+        android:layout_width="056.5dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea10naranja"
+        app:layout_constraintEnd_toStartOf="@id/linea51negra"
+        app:layout_constraintStart_toEndOf="@id/linea32negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+    <View
+        android:id="@+id/linea12naranja"
+        android:layout_width="77dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea50negra"
+        app:layout_constraintEnd_toStartOf="@id/linea49negra"
+        app:layout_constraintStart_toEndOf="@id/linea52negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+    <View
+        android:id="@+id/linea13naranja"
+        android:layout_width="57dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea12naranja"
+        app:layout_constraintEnd_toStartOf="@id/linea47negra"
+        app:layout_constraintStart_toEndOf="@id/linea52negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0"
+        />
+    <View
+        android:id="@+id/linea5roja"
+        android:layout_width="69dp"
+        android:layout_height="023dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea11naranja"
+        app:layout_constraintEnd_toStartOf="@id/linea55negra"
+        app:layout_constraintStart_toEndOf="@id/linea30negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea6roja"
+        android:layout_width="69dp"
+        android:layout_height="023dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea13naranja"
+        app:layout_constraintEnd_toStartOf="@id/linea44negra"
+        app:layout_constraintStart_toEndOf="@id/linea56negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea13wood"
+        android:layout_width="040dp"
+        android:layout_height="58dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea14naranja"
+        app:layout_constraintBottom_toTopOf="@id/linea29negra"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea28negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea14naranja"
+        android:layout_width="040dp"
+        android:layout_height="15dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea26negra"
+        app:layout_constraintBottom_toTopOf="@id/linea13wood"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea28negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea15naranja"
+        android:layout_width="020dp"
+        android:layout_height="18dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea24negra"
+        app:layout_constraintBottom_toTopOf="@id/linea14naranja"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea26negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea16naranja"
+        android:layout_width="044dp"
+        android:layout_height="51dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea21negra"
+        app:layout_constraintBottom_toTopOf="@id/linea29negra"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea24negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea17naranja"
+        android:layout_width="022dp"
+        android:layout_height="19.3dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea16naranja"
+        app:layout_constraintBottom_toTopOf="@id/linea5roja"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea13wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea14wood"
+        android:layout_width="022dp"
+        android:layout_height="19.3dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea17naranja"
+        app:layout_constraintBottom_toTopOf="@id/linea5roja"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea13wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea7roja"
+        android:layout_width="022dp"
+        android:layout_height="19.3dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea16naranja"
+        app:layout_constraintBottom_toTopOf="@id/linea5roja"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea17naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea8roja"
+        android:layout_width="023dp"
+        android:layout_height="51dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintBottom_toTopOf="@id/linea5roja"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea16naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea15wood"
+        android:layout_width="022dp"
+        android:layout_height="19.3dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea8roja"
+        app:layout_constraintBottom_toTopOf="@id/linea5roja"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea7roja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea20naranja"
+        android:layout_width="057dp"
+        android:layout_height="34dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintBottom_toTopOf="@id/linea57negra"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea8roja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea9roja"
+        android:layout_width="059dp"
+        android:layout_height="77dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea20naranja"
+        app:layout_constraintBottom_toTopOf="@id/linea57negra"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea15wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea10roja"
+        android:layout_width="69dp"
+        android:layout_height="023dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea5roja"
+        app:layout_constraintEnd_toStartOf="@id/linea9roja"
+        app:layout_constraintStart_toEndOf="@id/linea30negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea11roja"
+        android:layout_width="044dp"
+        android:layout_height="19.3dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea15wood"
+        app:layout_constraintBottom_toTopOf="@id/linea10roja"
+        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintStart_toEndOf="@id/linea17naranja"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea18naranja"
+        android:layout_width="023dp"
+        android:layout_height="016dp"
+        android:background="@color/darkorange"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="@id/linea6roja"
+        app:layout_constraintEnd_toStartOf="@id/linea37negra"
+        app:layout_constraintStart_toEndOf="@id/linea20naranja"
+        app:layout_constraintTop_toBottomOf="@id/linea11wood"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea12roja"
+        android:layout_width="023dp"
+        android:layout_height="036dp"
+        android:background="@color/red"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="@id/linea6roja"
+        app:layout_constraintEnd_toStartOf="@id/linea37negra"
+        app:layout_constraintStart_toEndOf="@id/linea20naranja"
+        app:layout_constraintTop_toBottomOf="@id/linea18naranja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea16wood"
+        android:layout_width="023dp"
+        android:layout_height="018dp"
+        android:background="@color/burlywood"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toBottomOf="@id/linea6roja"
+        app:layout_constraintEnd_toStartOf="@id/linea37negra"
+        app:layout_constraintStart_toEndOf="@id/linea9roja"
+        app:layout_constraintTop_toBottomOf="@id/linea12roja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea13roja"
+        android:layout_width="72dp"
+        android:layout_height="023dp"
+        android:background="@color/red"
+        app:layout_constraintWidth_percent="0.362"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintBottom_toTopOf="@id/linea6roja"
+        app:layout_constraintEnd_toStartOf="@id/linea44negra"
+        app:layout_constraintStart_toEndOf="@id/linea56negra"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+
+    <View
+        android:id="@+id/linea14roja"
+        android:layout_width="046dp"
+        android:layout_height="016dp"
+        android:background="@color/red"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toTopOf="@id/linea13roja"
+        app:layout_constraintEnd_toStartOf="@id/linea37negra"
+        app:layout_constraintStart_toEndOf="@id/linea9roja"
+        app:layout_constraintTop_toBottomOf="@id/linea14roja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea17wood"
+        android:layout_width="023dp"
+        android:layout_height="016dp"
+        android:background="@color/burlywood"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toTopOf="@id/linea13roja"
+        app:layout_constraintEnd_toStartOf="@id/linea37negra"
+        app:layout_constraintStart_toEndOf="@id/linea14roja"
+        app:layout_constraintTop_toBottomOf="@id/linea21naranja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea18wood"
+        android:layout_width="038dp"
+        android:layout_height="58dp"
+        android:background="@color/burlywood"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea14naranja"
+        app:layout_constraintBottom_toTopOf="@id/linea43negra"
+        app:layout_constraintEnd_toStartOf="@id/linea42negra"
+        app:layout_constraintStart_toEndOf="@id/linea17wood"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea15roja"
+        android:layout_width="023dp"
+        android:layout_height="018dp"
+        android:background="@color/red"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toTopOf="@id/linea14roja"
+        app:layout_constraintEnd_toStartOf="@id/linea18wood"
+        app:layout_constraintStart_toEndOf="@id/linea16wood"
+        app:layout_constraintTop_toBottomOf=""
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea19naranja"
+        android:layout_width="085dp"
+        android:layout_height="13dp"
+        android:background="@color/darkorange"
+        app:layout_constraintWidth_percent="0.25"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintTop_toBottomOf="@id/linea40negra"
+        app:layout_constraintBottom_toTopOf="@id/linea18wood"
+        app:layout_constraintEnd_toStartOf="@id/linea42negra"
+        app:layout_constraintStart_toEndOf=""
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0" />
+
+    <View
+        android:id="@+id/linea21naranja"
+        android:layout_width="023dp"
+        android:layout_height="018dp"
+        android:background="@color/darkorange"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toTopOf="@id/linea17wood"
+        app:layout_constraintEnd_toStartOf="@id/linea18wood"
+        app:layout_constraintStart_toEndOf="@id/linea15roja"
+        app:layout_constraintTop_toBottomOf="@id/linea19naranja"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <View
+        android:id="@+id/linea22naranja"
+        android:layout_width="063dp"
+        android:layout_height="020dp"
+        android:background="@color/darkorange"
+        app:layout_constraintHeight_percent="0.01"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintBottom_toTopOf="@id/linea21naranja"
+        app:layout_constraintEnd_toStartOf="@id/linea40negra"
+        app:layout_constraintStart_toEndOf="@id/linea12roja"
+        app:layout_constraintTop_toBottomOf="@id/linea39negra"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>
